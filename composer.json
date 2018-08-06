@@ -1,0 +1,14 @@
+{
+    "name": "roygoldman/drupal-bootstrap",
+    "description": "A drupal component collection for starting a Drupal Project",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Rich Gerdes",
+            "email": "rich@richgerdes.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
