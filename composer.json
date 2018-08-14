@@ -1,7 +1,7 @@
 {
     "name": "roygoldman/drupal-wrapper",
     "description": "A drupal component collection for starting a Drupal Project",
-    "type": "library",
+    "type": "metapackage",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
