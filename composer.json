@@ -1,5 +1,5 @@
 {
-    "name": "roygoldman/drupal-bootstrap",
+    "name": "roygoldman/drupal-wrapper",
     "description": "A drupal component collection for starting a Drupal Project",
     "type": "library",
     "license": "GPL-2.0-or-later",
