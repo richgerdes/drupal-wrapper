@@ -18,7 +18,8 @@
         "drupal/core": "~8",
         "drush/drush": ">8",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "vlucas/phpdotenv": "^2.5@dev"
     },
     "autoload": {
         "psr-4": {"RoyGoldman\\DrupalWrapper\\": "src/"},
