@@ -26,7 +26,7 @@
     },
     "extra": {
         "class": "RoyGoldman\\DrupalWrapper\\Plugin"
-    }
+    },
     "conflict": {
         "drupal/drupal": "*"
     }
