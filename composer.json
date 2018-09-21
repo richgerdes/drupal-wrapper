@@ -13,7 +13,6 @@
     "require": {
         "roygoldman/drupal-project-installers": "~7.0",
         "cweagans/composer-patches": "^1.6",
-        "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
         "drupal/drupal": "~7",
         "drush/drush": "~8",
