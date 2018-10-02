@@ -29,9 +29,9 @@ class EventHandler {
     $drupalRoot = $drupalFinder->getDrupalRoot();
 
     $dirs = [
-      'modules',
+      'sites/all/modules',
       'profiles',
-      'themes',
+      'sites/all/themes',
     ];
 
     // Required for unit testing

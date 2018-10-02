@@ -17,12 +17,10 @@
         "drupal/drupal": "~7",
         "drush/drush": "~8",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3",
-        "vlucas/phpdotenv": "^2.4"
+        "webmozart/path-util": "^2.3"
     },
     "autoload": {
-        "psr-4": {"RoyGoldman\\DrupalWrapper\\": "src/"},
-        "files": ["load.environment.php"]
+        "psr-4": {"RoyGoldman\\DrupalWrapper\\": "src/"}
     },
     "extra": {
         "class": "RoyGoldman\\DrupalWrapper\\Plugin"
