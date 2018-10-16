@@ -17,7 +17,9 @@ if ($drupalFinder->locateRoot($dir)) {
   $dir = realpath($drupalFinder->getDrupalRoot() . '/..');
 }
 
+// Step up one directory from loaded dir, which should be drupal root.
 $dir = dirname($dir);
+
 /**
  * Load any .env file. See /.env.example.
  */
