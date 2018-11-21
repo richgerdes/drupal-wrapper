@@ -10,12 +10,15 @@ use Dotenv\Exception\InvalidPathException;
 use DrupalFinder\DrupalFinder;
 
 // Locate .env file location.
-$dir = __DIR__;
+$dir = getcwd();
 $drupalFinder = new DrupalFinder();
-if ($drupalFinder->locateRoot(getcwd())) {
+if ($drupalFinder->locateRoot($dir)) {
   // If Drupal is available, use a .env in the parent directory.
   $dir = realpath($drupalFinder->getDrupalRoot() . '/..');
 }
+
+// Move up one directory.
+$dir = dirname($dir);
 
 /**
  * Load any .env file. See /.env.example.
