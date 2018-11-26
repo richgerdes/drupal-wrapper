@@ -16,9 +16,11 @@ if ($drupalFinder->locateRoot($dir)) {
   // If Drupal is available, use a .env in the parent directory.
   $dir = realpath($drupalFinder->getDrupalRoot() . '/..');
 }
-
-// Move up one directory.
-$dir = dirname($dir);
+elseif (!file_exists($dir . '.env')) {
+  // If we can't find Drupal, attempt to locate .env in current directory and
+  // its parent. We will try to step up one directory in search of .env.
+  $dir = dirname($dir);
+}
 
 /**
  * Load any .env file. See /.env.example.
