@@ -21,12 +21,6 @@
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
-    "autoload": {
-        "psr-4": {"RoyGoldman\\DrupalWrapper\\": "src/"}
-    },
-    "extra": {
-        "class": "RoyGoldman\\DrupalWrapper\\Plugin"
-    },
     "conflict": {
         "drupal/drupal": "*"
     }
