@@ -15,7 +15,7 @@
         "roygoldman/drupal-env-settings": "^1.2",
         "cweagans/composer-patches": "^1.6",
         "drupal/console": "^1.0.2",
-        "drupal/drupal": "~7",
+        "drupal/drupal": "7.68",
         "drush/drush": "~8",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
